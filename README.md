@@ -1,6 +1,10 @@
 # Mobilics_Assignment
 I have created NodeJS And ReactJS Application by fetching the data from json file and stored it in Mongo Cloud platform. I have performed some operations on the database to extract information from it and reflected to frontend(ReactJS).Worked with accessing API'S Faster than usual .
 
+Website URL:
+
+https://mobilics-assignment.vercel.app/
+
 Tech Stack used:
 
 Backend:NodeJS,ExpressJS
