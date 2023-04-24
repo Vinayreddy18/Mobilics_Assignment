@@ -28,7 +28,9 @@ const App = () => {
         `${config.BACKEND_URL}/users/bmw-mercedes-income`
       );
       setUserData(res.data);
+
       setShowTable(true); // show table after data is received
+      setFlag(false);
     } catch (err) {
       setError(err.message);
     }
@@ -39,6 +41,7 @@ const App = () => {
         `${config.BACKEND_URL}/users/male-phone-price`
       );
       setShowTable(true);
+      setFlag(false);
       setUserData(res.data);
     } catch (err) {
       setError(err.message);
@@ -48,6 +51,7 @@ const App = () => {
     try {
       const res = await axios.get(`${config.BACKEND_URL}/users/quote-email`);
       setShowTable(true);
+      setFlag(false);
       setUserData(res.data);
     } catch (err) {
       setError(err.message);
@@ -60,6 +64,7 @@ const App = () => {
         `${config.BACKEND_URL}/users/car-brand-email`
       );
       setShowTable(true);
+      setFlag(false);
       setUserData(res.data);
     } catch (err) {
       setError(err.message);
