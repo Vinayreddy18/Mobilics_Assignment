@@ -26,7 +26,7 @@ DataBase:MongoDB Cloud
 ![image](https://user-images.githubusercontent.com/86468467/234092238-28f4861c-cfdb-479d-bf87-be734f793943.png)
 
 
-Explanation of Source Code:
+                                                Explanation of Source Code:
 
 Storing sample_data.json in MongoDB Cloud:
 The sample_data.json file is stored in MongoDB Cloud by first creating a new database and collection. Then, the data from the sample_data.json file is inserted into the collection using the Mongoose library's insertMany method.
